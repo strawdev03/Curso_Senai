@@ -1,0 +1,32 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:rgba(0, 0, 0, 0.774) 
+}
+
+#divResultado {
+
+    background-color: rgb(255, 0, 0);
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px  ;
+}
+
+h1 {
+
+    background-color:rgb(255, 246, 119);
+    border: 1px solid black;
+    border-radius: 500px;
+    border-color: rgb(0, 0, 0);
+
+}
+
+input{
+    
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+
+    background-color: blueviolet;
+}

@@ -1,0 +1,79 @@
+<!-- Esse feito com inputs do HTML fica lindo!
+5.25 - O porco: Faça um programa que leia o valor de um produto X e leia a quantidade de moedas de um cofrinho que contenha:
+N moedas de 1 real;
+N moedas de 50 centavos;
+N moedas de 25 centavos;
+N moedas de 10 centavos;
+N moedas de 5 centavos;
+O programa deverá verificar se o total de reais que contem no cofrinho é o bastante para compra o produto X.
+
+<Muleta da compreensão: Tem que ler o preço da coisa; tem que ler a quantidade de cada moeda que tem no porco; calcular quantos pila tem no porco; ver se cabe no “orçamento”> -->
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>El chancho (porquinho)</title>
+    </head>
+    <body>
+        
+        <h1>CALCULATOR EL CHANCHO</h1> <BR></BR>
+        <div>
+
+            <label for="inptValor">Valor do produto</label>
+            <input type="number" id="inptValor" value="0" min="0">
+            
+        </div>
+
+        <div>
+
+            <h2>Quantidade das moedas</h2>
+            <label for="inpt1Real">R$ 1,00</label>
+            <input type="number" id="inpt1Real" value="0" min="0">
+            
+        </div>
+
+        <div>
+
+          <label for="inpt50cent">R$ 0,50</label>
+          <input type="number" id="inpt50cent" value="0" min="0">
+        
+        </div>
+        <div>
+
+            <label for="inpt25cent">R$ 0,25</label>
+        <input type="number" id="inpt25cent" value="0" min="0">
+        
+    </div>
+
+    <div>
+
+        <label for="inpt25cent">R$ 0,10</label>
+        <input type="number" id="inpt10cent" value="0" min="0">
+        
+    </div>
+
+    <div>
+
+        <label for="inpt5cent">R$ 0,05</label>
+        <input type="number" id="inpt5cent" value="0" min="0">
+        
+    </div>
+
+    
+    <button onclick="calcular()">calcular</button>
+    
+    <div id="DivResultadoG"> 
+
+    </div>
+    <div id="DivResultadoR"> 
+
+    </div>
+
+        <script src="script.js"></script>
+
+    </body>
+    </html>

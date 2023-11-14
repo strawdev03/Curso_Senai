@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Number game</title>
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="topo">
+
+            <h1>NUMBER GAME</h1>
+            <h3>Advinhe um número secreto!</h3>
+            
+        </div>
+
+        <div id="baixo">
+
+            
+            
+            
+            <div id="baixoEsq">
+                
+                <center>
+
+                    <br><br><label for="">Definições</label><br><br>
+                    <label for="">de</label>
+                    <input id="lmtMin" min="0" max="100" type="number">
+                    <label for="">a</label>
+                    <input id="lmtMax" type="number"> <br><br>
+                    <label for="">Max Tentativas</label> <br>
+                    <input id="maxTentativas" type="number">
+                </center>
+                
+            </div>
+
+            <div id="baixoMeio">
+
+                <center>
+
+                    <br><br>
+                    <label for="">JOGAR</label> <br><br>
+                    <label for="">Seu palpite</label>
+                    <input id="PalpiteJogador"type="number">
+                    <button onclick="Confirma()" id="buttonConfirma">confirma</button> <br><br>
+                    <label for="">Tentativas restantes </label>
+                    <input id="restoTentativas" type="number"> <br><br>
+                    <button id="buttonIniciar" onclick="Iniciar()">iniciar</button>
+                    <button onclick="Desistir()" id="ButtonDesistir">Desistir</button><br><br>
+                    <label id="msgJogador" for="">Fim de jogo !</label>
+                    
+                </center>
+                    
+                </div>
+                
+                <div id="baixoDir">
+
+                    <center>
+
+                        <br><br>
+                        <label for="">Placar /Dicas</label> <br><br>
+                        <label for="">Pontuação</label>
+                        <input id="PontosJogador" type="number"><br><br>
+                        <label for="">Dica Número</label><br>
+                        <input id="DicasNumero" type="text">
+                        
+                    </center>
+            </div>
+        
+            
+            
+            
+        </div>
+        
+    </div>
+    
+    
+    
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

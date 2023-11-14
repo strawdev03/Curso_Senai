@@ -1,0 +1,110 @@
+* {
+
+    border: 1px dotted red;
+    margin: 2px;
+}
+
+html,body {
+
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+
+main{
+
+    display: flex;
+    background-color: rgb(102, 102, 255);
+    height: 90%;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+}
+
+
+header{
+    
+    background-color: rgb(251, 255, 0);
+    height: 10%;
+    text-align: center;
+}
+
+
+
+
+#sectionEsq {
+
+    background-color: rgb(75, 74, 74);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#sectionDir {
+    
+    background-color: rgb(39, 253, 11);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.MetadesHorizontais {
+
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    
+}
+h1 {
+
+    padding: 20px;
+    
+
+}
+
+#EsqCima {
+
+    background-color: yellowgreen;
+    height: 50%;
+    width: 100%;
+
+
+    
+}
+
+#DirBaixo {
+
+    background-color: rgb(146, 146, 146);
+    height: 50%;
+    width: 100%;
+}
+#DirCima {
+
+    background-color: rgb(38, 53, 9);
+    height: 50%;
+    width: 100%;
+
+
+    
+}
+
+#EsqBaixo {
+
+    background-color: blueviolet;
+    height: 50%;
+    width: 100%;
+}
+
+#button1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -1,0 +1,26 @@
+body {
+
+    background-color: aquamarine;
+}
+
+div {
+
+    text-align: center;
+    position: relative;
+    display: grid;
+    place-items: center; /* Centraliza horizontalmente e verticalmente */
+   
+
+}
+header {
+
+    text-align: center;
+
+}
+hr {
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    text-align: left;
+}

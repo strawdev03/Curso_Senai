@@ -1,0 +1,7 @@
+1 - Criar um HTML e linkar com JS (script)
+2 - Criar os elementos do HTML <tags>
+3 - No JS, criar uma function
+4 - No botão do HTML chamar a function com "onclick"
+5 - No HTML, criar id's para os elementos que serão utilizados
+6 - No JS, criar variáveis para receber os elementos (getElement)
+7 - No JS, dentro da function, fazer as ações / cálculos (value)

@@ -1,0 +1,30 @@
+body {
+
+    padding: 0%;
+    text-align: center;
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+div {
+    display: block;
+    padding: 10px;
+}
+
+button {
+    font-size: large ;
+    background-color: darkslategrey;
+    color: bisque;
+    border-radius: 50px;
+    padding: 10px;
+
+}
+#DivResultadoG {
+
+    padding: 10px;
+    color: darkgreen;
+}
+#DivResultadoR {
+
+    padding: 1px;
+    color: red;
+}
